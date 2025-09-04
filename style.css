@@ -16,34 +16,93 @@ header {
 .container_cabecalho {
     display: flex;
     justify-content: space-between;
-    width: 1440px;
-    background-color: rgb(235, 227, 227);
+    width: 90%;
+    max-width: 1440px;
+    background-color: rgb(226, 140, 69);
     margin: 0 auto 0 auto;
     height: 100%;
     align-items: center;
 
 }
-.icone_clone{
+
+.icone_clone {
     height: 50px;
 }
 
-.box_busca{
+.box_busca {
     position: relative;
+    width: 60%;
+    max-width: 500px;
+    margin: 0 10px;
 }
-.icone_lupa{
+
+.icone_lupa {
     height: 24px;
     position: absolute;
     left: 9px;
     top: 9px;
+    fill: #d48a4d;
 }
-.logo{
+
+.logo {
     height: 60px;
 }
 
-    .campo_busca{
-       width: 500px; 
-       height: 42px;
-       border-radius: 10px;
-       border: solid 1px #cccccc;
-    }
+.campo_busca {
+    width: 100%;
+    ;
+    height: 42px;
+    border-radius: 10px;
+    border: solid 1px #dec274;
+    padding-left: 2.5rem;
+    font-family: "Bellota", system-ui;
+    font-size: 1rem;
+}
+
+.banner {
+    background-image: url(./assets/imgs/banner.png);
+    width: 100%;
+    aspect-ratio: 3.2;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+    /*background-color: #d48a4d;*/
+}
+
+.titulo span{
+    font-size: 48px;
+      
+}
+
+.titulo hr{
+    width: 300px;
+    height: 4px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffd188;
+
+}
+
+.acessivel{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    
+}
 
