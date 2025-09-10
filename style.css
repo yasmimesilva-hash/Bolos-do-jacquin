@@ -5,9 +5,8 @@
     font-family: "Bellota", system-ui;
 }
 
-svg {
-    height: 50px;
-}
+
+
 body{
     background-color: #FFF6E8;
 }
@@ -29,7 +28,7 @@ header {
 
 }
 
-.icone_clone {
+.icone_home {
     height: 50px;
 }
 
@@ -61,6 +60,17 @@ header {
     padding-left: 2.5rem;
     font-size: 1rem;
 }
+
+
+
+
+
+
+
+
+
+
+/* BANNER*/
 
 .banner {
     background-image: url(./assets/imgs/banner.png);
@@ -177,7 +187,19 @@ header {
     align-items: center;
     }
     footer p{
-        font-family: "Julius Sans One", sans-serif;
+        text-align: center;
+    }
+
+
+
+
+
+    /* MEDIA */
+        @media screen and (max-width: 600px){
+        .banner{
+            aspect-ratio: 2.0;
+        }
+        
     }
     
     
